@@ -1,0 +1,2 @@
+# curriculo
+meu curriculo pessoa :)
