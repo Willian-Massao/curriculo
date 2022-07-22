@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilo/desktop.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="/scripts/script.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <title>Document</title>
+</head>
+<body onload="type()">
+    <header>
+        <div>
+            <ul>
+                <li onmouseover="hover(0, true)" onmouseout="hover(0, false)">
+                    <a href="">About</a>
+                    <span class="btnamz"></span>
+                </li>
+                <li onmouseover="hover(1, true)" onmouseout="hover(1, false)">
+                    <a href="">Ability</a>
+                    <span class="btnamz"></span>
+                </li>
+                <li onmouseover="hover(2, true)" onmouseout="hover(2, false)">
+                    <a href="">Contact</a>
+                    <span class="btnamz"></span>
+                </li>
+            </ul>    
+        </div>
+    </header>
+    <main>
+        <figure id="profilepic">
+            <img src="/src/profilepic.png" alt="">
+        </figure>
+        <div id="profiledesc">
+            <h2>Ola!!, me chamo</h2>
+            <h1>Willian Massao</h1>
+            <p>A tualmente procuro vaga de estagio como desenvolvedor <span class="auto-type"></span></p>
+        </div>
+        <div id="about">
+            <h1>Sobre min</h1>
+            <p>
+                Passei em engenharia de controle e automação na UTFPR em 2019,
+                cursei até o 6 semestre e percebi o que eu queria trabalhar <strong>mesmo</strong> era na area
+                da programação, disso isso fui em busca e acabei trocando de curso e faculdade!
+                Atualmente estou no 2° semestre em Analise e desenvolvimento de sistemas na UNICSUL.
+            </p>
+        </div>
+        <div id="ability">
+            <h1>competencias</h1>
+            <div id="cont">
+                <div id="comp">
+                    <figure class="comp" id="HTML" onmouseover="hab('HTML', true)" onmouseout="hab('HTML', false)">
+                        <img src="/src/HTML5.png" alt="">
+                    </figure>
+                    <figure class="comp" id="CSS" onmouseover="hab('CSS', true)" onmouseout="hab('CSS', false)">
+                        <img src="/src/CSS.png" alt="">
+                    </figure>
+                    <figure class="comp" id="JS" onmouseover="hab('JS', true)" onmouseout="hab('JS', false)">
+                        <img src="/src/JS.png" alt="">
+                    </figure>
+                    <figure class="comp" id="C" onmouseover="hab('C', true)" onmouseout="hab('C', false)">
+                        <img src="/src/C.png" alt="">
+                    </figure>
+                    <figure class="comp" id="C2" onmouseover="hab('C2', true)" onmouseout="hab('C2', false)">
+                        <img src="/src/C2.png" alt="">
+                    </figure>
+                    <figure class="comp" id="PY" onmouseover="hab('PY', true)" onmouseout="hab('PY', false)">
+                        <img src="/src/PYTHON.png" alt="">
+                    </figure>
+                </div>
+                <div id="descomp">
+                    <p hidden class="HTML">
+                        <strong>HTML5</strong> - Conhecimento em HTML5, Eu uso HTML desde 2015 mas só fui ter 
+                        aprofundamento em 2022 com a UNICSUL, acabei gostando ao ponto de estudar mais sobre e 
+                        conseguir colocar como uma das minhas competencias.
+                    </p>
+                    <p hidden class="CSS">
+                        <strong>CSS3</strong> - Conhecimento em CSS3, Como aconteceu com HTML não foi diferente com CSS
+                        tambem tive um aprofundamento mais serio na UNICSUL.
+                    </p>
+                    <p hidden class="JS">
+                        <strong>JavaScript</strong> - Conhecimento em JavaScript, de longe a linguagem que mais
+                        utilisei até hoje, praticamente aprendi programação orientada a objeto por ela e migrei para outra 
+                        com o passar do tempo.
+                    </p>
+                    <p hidden class="C">
+                        <strong>C</strong> - Conhecimento em C, primeira linguagem de programação que tive contato e o estopim
+                        para eu querer tonar programação minha carreira.
+                    </p>
+                    <p hidden class="C2">
+                        <strong>C#</strong> - Conhecimento em C#, Atual linguagem que estudo e utilizo,
+                        tenho conhecimentos em .NET ASP.NET e windowsForms, nela foi minha primeira experiencia
+                        em aplicações que não foram em console ou sites.
+                    </p>
+                    <p hidden class="PY">
+                        <strong>Python</strong> - Conhecimento em Python, Provavemnete umas das linguagens mais uteis
+                        na hora de automazar coisas do dia a dia, tenho breve experiencia em pyautogui, selenium e pandas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="socialmidia">
+            <div id="linkgit">
+                <figure>
+                    <a target="_blank" href="https://github.com/Willian-Massao">
+                    <img src="/src/github.png" alt="">
+                    </a>
+                </figure>
+                <figure>
+                    <a target="_blank" href="https://www.linkedin.com/in/willian-massao-barbosa-sado/">
+                    <img src="/src/linkedin.png" alt="">
+                    </a>
+                </figure>
+            </div>
+            <form action="https://formsubmit.co/d0e676c3103ada778258191bf93fa4c8" method="POST">
+                <input type="text" name="name" required placeholder="Seu nome" id="name">
+                <input type="email" name="email" required placeholder="Seu e-mail" id="email">
+                <textarea name="message" placeholder="escreva sua mensagem para min aqui" id="message" required></textarea>
+                <button type="submit">Send</button>
+           </form>
+        </div>
+    </footer>
+</body>
+</html>
