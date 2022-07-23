@@ -7,6 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="scripts/script.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" media="(max-width: 960px)" href="estilo/mobile.css">
 
     <title>Me contrata</title>
 </head>
@@ -30,22 +31,24 @@
         </div>
     </header>
     <main>
-        <figure id="profilepic">
-            <img src="src/profilepic.png" alt="">
-        </figure>
-        <div id="profiledesc">
-            <h2>Ola, me chamo</h2>
-            <h1>Willian Massao</h1>
-            <p>Atualmente procuro vaga de estágio como desenvolvedor <span class="auto-type"></span></p>
-        </div>
-        <div id="about">
-            <h1>Sobre mim</h1>
-            <p>
-                Aceito em Engenharia de Controle e Automação na UTFPR no ano de 2019, 
-                mas cursei até o 6º semestre, pois percebi que minha <strong>vocação</strong> era para a área de 
-                desenvolvimento e programação. Atualmente estou no 2º semestre cursando Análise e 
-                Desenvolvimento de Sistemas na UNICSUL.
-            </p>
+        <div id="profile">
+            <figure id="profilepic">
+                <img src="src/profilepic.png" alt="">
+            </figure>
+            <div id="profiledesc">
+                <h2>Ola, me chamo</h2>
+                <h1>Willian Massao</h1>
+                <p>Atualmente procuro vaga de estágio como desenvolvedor <span class="auto-type"></span></p>
+            </div>
+            <div id="about">
+                <h1>Sobre mim</h1>
+                <p>
+                    Aceito em Engenharia de Controle e Automação na UTFPR no ano de 2019, 
+                    mas cursei até o 6º semestre, pois percebi que minha <strong>vocação</strong> era para a área de 
+                    desenvolvimento e programação. Atualmente estou no 2º semestre cursando Análise e 
+                    Desenvolvimento de Sistemas na UNICSUL.
+                </p>
+            </div>
         </div>
         <div id="ability">
             <h1>competencias</h1>
@@ -120,7 +123,7 @@
                 <input type="email" name="email" required placeholder="Seu e-mail" id="email">
                 <textarea name="message" placeholder="Escreva sua mensagem para mim aqui" id="message" required></textarea>
                 <button type="submit">Send</button>
-           </form>
+            </form>
         </div>
     </footer>
 </body>

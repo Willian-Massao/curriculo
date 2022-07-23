@@ -1,0 +1,55 @@
+main{
+    width: 100%;
+}
+header{
+    justify-content: center;
+}
+li{
+    margin-right: 0px;
+}
+ul{
+    padding: 0;
+}
+#ability{
+    max-width: 630px;
+    width: 90%;
+}
+#cont{
+    width: 100%;
+}
+#comp{
+    width: 100%;
+}
+#descomp{
+    width: 100%;
+}
+#profile{
+    width: 90%;
+}
+#about{
+    width: 100%;
+}
+#about p{
+    width: 100%;
+}
+#about h1{
+    width: 100%;
+}
+figure.comp{
+    width: 21%;
+    height: 21%;
+}
+#profilepic{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+#linkgit{
+    width: 100%;
+    margin: auto;
+}
+form{
+    width: 100%;
+    margin: auto;
+}
+
