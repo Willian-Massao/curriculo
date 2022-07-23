@@ -35,6 +35,7 @@ li{
 }
 li a{
     color: #68BBE3;
+    text-decoration: none;
 }
 .btnamz{
     width: 40px;
@@ -43,10 +44,6 @@ li a{
     border-radius: 3px;
     position: absolute;
     background-color: #055C9D;
-}
-li a{
-
-    text-decoration: none;
 }
 main{
     width: 960px;
@@ -61,7 +58,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 600px;
+    max-width: 630px;
 }
 #profilepic{
     width: 250px;
@@ -137,6 +134,13 @@ img{
     width: 100%;
     height: 150px;
 }
+#linguagens{
+    width: 630px;
+}
+.lingua a{
+    text-decoration: none;
+    color: #68BBE3;
+}
 figure.comp{
     width: 150px;
     height: 150px;
@@ -144,6 +148,35 @@ figure.comp{
 .comp img{
     width: 100%;
     height: 100%;
+}
+#projetos{
+    width: 630px;
+}
+#previewContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+figure.preview{
+    width: 290px;
+    height: fit-content;
+    background-color: #055C9D;
+    padding: 5px;
+    margin: 5px;
+}
+.preview:hover{
+    opacity: .7;
+}
+.preview img{
+    width: 100%;
+    height: 100%;
+}
+figcaption{
+    text-align: center;
+    color: #68BBE3;
+    text-decoration: none;
 }
 footer{
     margin-top: 300px;
