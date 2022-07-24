@@ -27,6 +27,6 @@ function hab(id, state) {
         var value = window.scrollY;
 
         layer3.style.top = `${-value * 0.00}px`;
-        layer2.style.top = `${-value * 0.10}px`;
+        layer2.style.top = `${-value * 0.15}px`;
         layer1.style.top = `${-value * 0.50}px`;
     });
