@@ -2,7 +2,9 @@ html{
     scroll-behavior: smooth;
     padding: 0;
     margin: 0;
-    background-color: #231c64;
+    background-color: #201666;
+}
+body, html {
     overflow-x: hidden;
 }
 body{
@@ -21,7 +23,7 @@ header{
     width: 100%;
     display: flex;
     justify-content:flex-end;
-    margin-top: -1880px;
+    margin-top: -1607px;
 }
 ul{
     display: inline-flex;
