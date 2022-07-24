@@ -2,12 +2,13 @@ html{
     scroll-behavior: smooth;
     padding: 0;
     margin: 0;
+    background-color: #231c64;
 }
 body{
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: #003060;
+    background-color: transparent;
     color: white;
     font-family: Montserrat;
     display: flex;
@@ -19,6 +20,7 @@ header{
     width: 100%;
     display: flex;
     justify-content:flex-end;
+    margin-top: -1880px;
 }
 ul{
     display: inline-flex;
@@ -32,18 +34,15 @@ li{
     align-items: center;
     justify-content: center;
     margin-right: 45px;
+    background-color: transparent;
+    border-radius: 25px;
+}
+li:hover{
+    background-color: #fff;
 }
 li a{
-    color: #68BBE3;
+    color: #000;
     text-decoration: none;
-}
-.btnamz{
-    width: 40px;
-    height: 7px;
-    bottom: 0;
-    border-radius: 3px;
-    position: absolute;
-    background-color: #055C9D;
 }
 main{
     width: 960px;
@@ -65,7 +64,7 @@ main{
     height: 250px;
     overflow: hidden;
     border-radius: 125px;
-    border: 5px #055C9D solid;
+    border: 5px #ad326e solid;
 }
 #profilepic img{
     width: 100%;
@@ -73,6 +72,7 @@ main{
 }
 #about{
     width: 600px;
+    color: black;
 }
 #about p{
     width: 100%;
@@ -91,10 +91,12 @@ img{
     width: 86%;
 }
 #profiledesc h2{
+    margin: 0;
     color: #5cdd78;
 }
-#profiledesc h1, #profiledesc h2, #profiledesc p{
+#profiledesc h1, #profiledesc p{
     margin: 0;
+    color: black;
 }
 #profiledesc p{
     font-size: 15px;
@@ -106,6 +108,9 @@ img{
 #ability{
     margin-top: 200px;
 }
+#ability h1{
+    color: black;
+}
 #cont{
     width: min-content;
     display: flex;
@@ -113,6 +118,7 @@ img{
     justify-content: center;
     flex-flow: column;
 }
+
 #comp{
     width: 630px;
     display: flex;
@@ -126,9 +132,8 @@ img{
 }
 .comp:hover{
     cursor: pointer;
-    background-color: #055C9D;
-    border-radius: 15px;
-    box-shadow: 0 0 10px 3px #055C9D;
+    background-color: rgba(255,255,255,.2);
+    border-radius: 5px;
 }
 #descomp{
     width: 100%;
@@ -162,21 +167,18 @@ figure.comp{
 figure.preview{
     width: 290px;
     height: fit-content;
-    background-color: #055C9D;
-    padding: 5px;
     margin: 5px;
+    border-radius: 2px;
 }
 .preview:hover{
-    opacity: .7;
+    box-shadow: 0 0 15px 0 black;
 }
 .preview img{
     width: 100%;
     height: 100%;
-}
-figcaption{
-    text-align: center;
-    color: #68BBE3;
-    text-decoration: none;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    margin: 0;
 }
 footer{
     margin-top: 300px;

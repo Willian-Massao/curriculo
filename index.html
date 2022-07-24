@@ -5,27 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo/desktop.css">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="scripts/script.js"></script>
+    
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" media="(max-width: 960px)" href="estilo/mobile.css">
+    <link rel="stylesheet" href="estilo/background.css">
 
     <title>Me contrata</title>
 </head>
-<body onload="type()">
+<body onload="type()" onload="parallax()">
+    <div id="background">
+        <img src="src/layer3.png" alt="" id="layer3">
+        <img src="src/layer2.png" alt="" id="layer2">
+        <img src="src/layer1.png" alt="" id="layer1">
+    </div>
     <header>
         <div>
             <ul>
-                <li onmouseover="hover(0, true)" onmouseout="hover(0, false)">
-                    <a href="index.html#profilepic">About</a>
-                    <span class="btnamz"></span>
+                <li>
+                    <a href="index.html#profilepic"><strong>About</strong></a>
                 </li>
-                <li onmouseover="hover(1, true)" onmouseout="hover(1, false)">
-                    <a href="index.html#ability">Ability</a>
-                    <span class="btnamz"></span>
+                <li>
+                    <a href="index.html#ability"><strong>Ability</strong></a>
                 </li>
-                <li onmouseover="hover(2, true)" onmouseout="hover(2, false)">
-                    <a href="index.html#socialmidia">Contact</a>
-                    <span class="btnamz"></span>
+                <li>
+                    <a href="index.html#socialmidia"><strong>Contact</strong></a>
                 </li>
             </ul>    
         </div>
@@ -54,7 +57,7 @@
             <h1>competencias</h1>
             <div id="cont">
                 <div id="comp">
-                    <figure class="comp" id="HTML" onmouseover="hab('HTML', true)" onmouseout="hab('HTML', false)">
+                    <figure class="comp" id="HTML" >
                         <img src="src/HTML5.png" alt="">
                     </figure>
                     <figure class="comp" id="CSS" onmouseover="hab('CSS', true)" onmouseout="hab('CSS', false)">
@@ -126,15 +129,15 @@
             <h1>Projetos pessoais</h1>
             <div id="previewContainer">
                 <figure class="preview">
+                    <span class="blur"></span>
                     <a href="https://willian-massao.github.io/Projeto-final/">
                         <img src="src/Preview1.png" alt="">
-                        <figcaption>Site para supermercado</figcaption>
                     </a>
                 </figure>
                 <figure class="preview">
+                    <span class="blur"></span>
                     <a href="https://willian-massao.github.io/Mario_clone/">
                         <img src="src/Preview2.png" alt="">
-                        <figcaption>Clone do mario em JS</figcaption>
                     </a>
                 </figure>
             </div>
@@ -162,5 +165,6 @@
             </form>
         </div>
     </footer>
+    <script src="scripts/script.js"></script>
 </body>
 </html>

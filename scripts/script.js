@@ -1,11 +1,5 @@
 
 
-function hover(aa, state){
-    var li = document.getElementsByTagName("li");
-    var span = li[aa].children[1];
-
-    state == true?  span.style.backgroundColor = "#0E86D4": span.style.backgroundColor = '#055C9D';
-}
 function type() {
     var options = {
         strings: ["back-end", "front-end", "full-stack"],
@@ -16,6 +10,7 @@ function type() {
 
     new Typed(".auto-type", options);
 }
+
 function hab(id, state) {
     var comp = document.getElementById(id);
 
@@ -23,3 +18,15 @@ function hab(id, state) {
 
     state == true? p[0].hidden = false: p[0].hidden = true;
 }
+
+    var layer3 = document.getElementById("layer3");
+    var layer2 = document.getElementById("layer2");
+    var layer1 = document.getElementById("layer1");
+
+    addEventListener('scroll', function(){
+        var value = window.scrollY;
+
+        layer3.style.top = `${-value * 0.00}px`;
+        layer2.style.top = `${-value * 0.10}px`;
+        layer1.style.top = `${-value * 0.50}px`;
+    });
