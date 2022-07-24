@@ -28,8 +28,7 @@ function hab(id, state) {
     addEventListener('scroll', function(){
         var value = window.scrollY;
 
-        layer5.style.left = `${-value * 1}px`;
-        layer5.style.bottom = `${-value * 0.3}px`;
+        layer5.style.right = `${-value * 1}px`;
         layer4e.style.left = `${-value * 0.6}px`;
         layer4d.style.right = `${-value * 0.6}px`;
         layer3.style.top = `${-value * 0.00}px`;

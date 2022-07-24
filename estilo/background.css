@@ -25,6 +25,7 @@
 #layer5{
     z-index: -3;
     margin-top: -50px;
+    opacity: .5;
 }
 #layer4e{
     z-index: -4;
